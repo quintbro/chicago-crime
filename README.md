@@ -11,14 +11,20 @@ The goal of this analysis was to move beyond simple crime mapping and uncover th
 
 We analyzed data from 2010 to the present, incorporating crime records, daily weather patterns, moon phases, and public holidays.
 
+![Cross Validated Error Time Series Plot](plots/cv_total.png)
+
 ## Key Findings & Actionable Recommendations
 Our analysis yielded several significant findings, which we translated into a 'What now?' action plan for the Chicago PD.
+
+![Time of Day Bar Chart](plots/time_day_bar.png)
 
 ### Key Statistical Findings
 * **Weather is a Major Factor:** We found a strong, statistically significant positive correlation between Max Average Temperature and the number of violent crimes. Crime rates show a clear seasonal pattern, peaking in the summer months
 * **Economics Matter:** Annual Median Income was found to have a significant negative correlation with crime. This suggests that economic factors play a crucial role in crime rates.
 * **Time is Predictive:** Using a Random Forest model and its feature importances, we determined that the Time of Day (specifically 'Late Night') is the single most important feature for predicting whether a crime is violent.
 * **Debunking a Myth:** We investigated the long-standing belief that crime increases during a full moon. Our analysis showed it has a very low predictive importance (.052) and no clear, direct correlation was observed in our scatter plot.
+
+![Phases of the Moon Plot](plots/new_moon_plot_black.png)
 
 ### Actionable Recomendations
 * **For Temperature:** Proactively increase officer presence on days forecasted to be warmer than average.
