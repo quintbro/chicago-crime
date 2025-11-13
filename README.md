@@ -16,7 +16,7 @@ We analyzed data from 2010 to the present, incorporating crime records, daily we
 ## Key Findings & Actionable Recommendations
 Our analysis yielded several significant findings, which we translated into a 'What now?' action plan for the Chicago PD.
 
-<img src="plots/time_day_bar.png" alt="Time of Day Bar Chart" width="800"/>
+<img src="plots/time_day_bar.png" alt="Time of Day Bar Chart" width="700"/>
 
 
 ### Key Statistical Findings
@@ -25,7 +25,7 @@ Our analysis yielded several significant findings, which we translated into a 'W
 * **Time is Predictive:** Using a Random Forest model and its feature importances, we determined that the Time of Day (specifically 'Late Night') is the single most important feature for predicting whether a crime is violent.
 * **Debunking a Myth:** We investigated the long-standing belief that crime increases during a full moon. Our analysis showed it has a very low predictive importance (.052) and no clear, direct correlation was observed in our scatter plot.
 
-![Phases of the Moon Plot](plots/new_moon_plot_black.png)
+<img src="plots/new_moon_plot_black.png" alt="Phases of the Moon Plot" width="700"/>
 
 ### Actionable Recomendations
 * **For Temperature:** Proactively increase officer presence on days forecasted to be warmer than average.
