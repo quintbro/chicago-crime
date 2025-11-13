@@ -42,6 +42,11 @@ We employed a multi-model approach to tackle the problem from different angles.
 
 **Tools Used:** Python (Pandas, Scikit-learn, SHAP), R (Tidyverse, forecast, ggplot2)
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/R-75aadb?style=for-the-badge&logo=R&logoColor=white" alt="R" />
+</p>
+
 ## File Descriptions:
 ### Data
 - A file containing the all of the crimes from the Chicago Police Department district 11 since 2010
