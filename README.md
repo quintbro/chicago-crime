@@ -16,7 +16,7 @@ We analyzed data from 2010 to the present, incorporating crime records, daily we
 ## Key Findings & Actionable Recommendations
 Our analysis yielded several significant findings, which we translated into a 'What now?' action plan for the Chicago PD.
 
-<img src="plots/time_day_bar.png" alt="Time of Day Bar Chart" width="200"/>
+<img src="plots/time_day_bar.png" alt="Time of Day Bar Chart" width="800"/>
 
 
 ### Key Statistical Findings
