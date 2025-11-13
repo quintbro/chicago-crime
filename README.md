@@ -36,9 +36,9 @@ Our analysis yielded several significant findings, which we translated into a 'W
 ## Methodology
 We employed a multi-model approach to tackle the problem from different angles.
 
-* Time Series Forecasting (R): We built a time series model to forecast the monthly volume of crimes. Our final model achieved a Root Mean Square Error (RMSE) of 40.209 when compared to fitted values , and an RMSE of 40.749 in our cross-validated forecast.
-* Classification (Python): We used a Random Forest model to classify crimes as violent or non-violent, identifying 'Time of Day - Late Night' as the top predictor.
-* Regression & Explainability (Python): We trained a Neural Network to predict the number of daily crimes. We then used SHAP (SHapley Additive exPlanations) with a Random Forest to create model-agnostic explanations, allowing us to understand why our model was making certain predictions (see shap_beeswarm.png).
+* **Time Series Forecasting (R):** We built a time series model to forecast the monthly volume of crimes. Our final model achieved a Root Mean Square Error (RMSE) of 40.209 when compared to fitted values , and an RMSE of 40.749 in our cross-validated forecast.
+* **Classification (Python):** We used a Random Forest model to classify crimes as violent or non-violent, identifying 'Time of Day - Late Night' as the top predictor.
+* **Regression & Explainability (Python):** We trained a Neural Network to predict the number of daily crimes. We then used SHAP (SHapley Additive exPlanations) with a Random Forest to create model-agnostic explanations, allowing us to understand why our model was making certain predictions (see shap_beeswarm.png).
 
 **Tools Used:** Python (Pandas, Scikit-learn, SHAP), R (Tidyverse, forecast, ggplot2)
 
