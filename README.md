@@ -60,5 +60,3 @@ This file contains all of the code that we used to fit the time series models as
 
 ### nn_shap.ipynb
 This file contains the code used to fit and train our neural network as well as generate shap values for a random forest model. Both were used to predict number of daily crimes
-## shap_beeswarm.png
-A beeswarm plot of the SHAP values
